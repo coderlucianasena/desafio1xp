@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dindin</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+       
+</head>
+<body>
+    <header>
+        <div class="logo">
+        <img src="images/dindin-imagens/logo-header.png " alt="logo-header" />  
+        </div>
+
+        <nav class="menu">
+            <a href=""> Cursos </a>
+            <a href=""> Blog </a>
+            <a href=""> Contato </a>
+        </nav> 
+
+    <h1>Titulo Principal</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Cursos</h2>
+            <p>
+                Educação financeira é tudo de bom!
+            </p>
+
+            <section>
+                <div>
+                    <img src="images/dindin-imagens/ilustra-poupando.png " alt="logo-header" />
+                    <h3> Investimento para iniciantes </h3>
+                    <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                    <button>comneçar agora</button>
+                </div>
+                <div>
+                    <img src="images/dindin-imagens/ilustra-investimento.png" alt="logo-header" />
+                    <h3> Investimento para iniciantes </h3>
+                    <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                    <button>comneçar agora</button>
+                </div>
+                <div>
+                    <img src="images/dindin-imagens/ilustra-independencia.png" alt="logo-header" />
+                    <h3> Investimento para iniciantes </h3>
+                    <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                    <button>comneçar agora</button>
+        
+                </div>
+            </section>
+            <footer>
+                    <section>
+                    <div class="logo-rodape">
+                    <img src="images/dindin-imagens/logo-footer.png" alt="logo-rodape" />  
+                    </div>
+                    
+                    <nav class="menu">
+                        <a href=""> Cursos </a>
+                        <a href=""> Blog </a>
+                        <a href=""> Contato </a>
+                    </nav> 
+    
+                    <button>quero ser prof</button>
+                    <button>aqui tem outro link</button>
+            </footer>
+        </main>
+    </body>
+    </html>
