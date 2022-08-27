@@ -1,0 +1,177 @@
+#parte-interna-cabecalho {
+    background-color: #2E948A; 
+    width: 100vw; 
+    display: flex; 
+    justify-content: space-between;
+}
+
+    #container-botoes {
+        flex-grow: 1; 
+        margin-right: 7%; 
+        display: flex; 
+        flex-direction: row-reverse;
+    }
+
+        .botao-cabecalho {
+            all: unset;
+            cursor: pointer;
+
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1.5em;
+
+            color: white;
+
+            margin-inline: 0.7em;
+        }
+/* tags */
+header {
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0px;
+top: 0px;
+
+background: #2E948A;
+box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    width: 80%;
+    height: 126px;
+    left: 202px;
+    top: 210px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 63px;
+
+    color: #FF4081;
+}
+.container {
+    position: absolute;
+    width: 461px;
+    height: 186px;
+    left: 202px;
+    top: 358px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+#corpo {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 1em;
+}
+
+    #container-de-formulario {
+        width: 50%;
+    }
+
+        #titulo-contato {
+            color: #FF4081;
+            font-weight: bold;
+            font-size: 3em;
+        }
+
+        #botao-entrar {
+            all: unset;
+            cursor: pointer;
+            background-color: #FF4081;
+            color: white;
+            padding-block: 0.5em;
+            padding-inline: 3em;
+            border: 2px solid #FF4081;
+            border-radius: 25px;
+        }
+    
+
+#rodape {
+    display: flex; 
+    width: 100vw; 
+    background-color: #2E948A;
+    justify-content: space-around;
+}
+
+    #flex-botoes-centro-rodape {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: flex-start;
+    }
+
+        .botao-central-rodape {
+            all: unset;
+            cursor: pointer;
+
+            color: white;
+
+            
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 1.2em;
+        }
+
+    #flex-botoes-fim-rodape {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .botao-fim-rodape {
+        all: unset;
+        cursor: pointer;
+
+        color: white;
+
+        padding-block: 0.5em;
+        padding-inline: 3em;
+        margin-block: 0.5em;
+
+        
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.2em;
+
+        border: 2px solid white;
+    }
+
+@media screen and (max-width: 500px) {
+
+    #corpo {
+        flex-direction: column;
+        padding-inline: 15px;
+    }
+
+        #container-de-formulario {
+            width: 100%;
+        }
+
+    #rodape {
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .botao-cabecalho {
+            font-size: 15px;
+        }
+
+        #img-dindin-logo-rodape{
+            display: flex;
+            align-items: center;
+            align-content: center;
+        }
+}
